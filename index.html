@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> HAYAT-ASSIST </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/previews/011/659/007/non_2x/state-of-palestine-flag-in-the-shape-of-a-heart-free-png.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="east.html">The Middle East</a>
+    <a href="/">How To Be More Involved</a>
+    <a href="donate.html">Donation</a>
+    <a href="brands.html">Brands</a>
+  </div> 
+  <style>
+    .slideshow-container {
+      max-width: 800px;
+      position: relative;
+      margin: auto;
+    }
+
+    .slideshow-container img {
+      width: 100%;
+      display: none;
+    }
+
+    .slideshow-container img.active {
+      display: block;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: auto;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .prev:hover, .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .prev {
+      left: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+  </style>
+  </head>
+  <body>
+
+    <style>
+      .slideshow-container {
+        max-width: 800px;
+        position: relative;
+        margin: auto;
+      }
+
+      .slideshow-container img {
+        width: 100%;
+        display: none;
+      }
+
+      .slideshow-container img.active {
+        display: block;
+      }
+
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+
+      .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      .prev {
+        left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+    </style>
+    </head>
+    <body>
+
+
+    <div class="slideshow-container">
+      <img class="slides active" src="image1.jpeg" alt="Slide 1">
+      <img class="slides" src="image2.jpeg" alt="Slide 2">
+      <img class="slides" src="image4.jpeg" alt="Slide 4">
+      <img class="slides" src="image3.jpeg" alt="Slide 3">
+      <img class="slides" src="image5.jpeg" alt="Slide 5">
+      <img class="slides" src="image6.jpeg" alt="Slide 6">
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        showSlides();
+      });
+
+      let slideIndex = 0;
+
+      function showSlides() {
+        let slides = document.getElementsByClassName("slides");
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+
+      function changeSlide(n) {
+        slideIndex += n;
+        showSlides();
+      }
+    </script>
+
+  <div class="news">
+  <h1 class="captions"> Latest Updates On The Middle East:</h1>
+  
+  <div class="can">
+    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2021_19/3475047/210515-london-mb-1424.JPG" class="slide">
+  <div class="camp">
+  <ul>
+  <li>U.S. with the assistance of UK continue to attack the Houthis in Yemen</li>
+  <li>Hezbollah members killed by Israel near the Syria-Lebanon border</li>
+  <li>Nuclear weapons said to be involved if iran-Israel conflict continues</li>
+
+  </ul>
+  </div>
+  </div>
+    <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/CTtjcSE1904?si=9QVRQcHT3OniHRw7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DN2jHY9FL1A?si=392PPTx-OI9xwcqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </center>
+  </div>
+    
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

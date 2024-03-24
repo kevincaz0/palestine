@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Oxygen", sans-serif;
+
+}
+.news{
+  background-color:#ebeaea;
+  margin-left:5px;
+  margin-right:5px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 5px;
+  padding-bottom: 30px;
+ 
+  
+  
+}
+.topnav {
+  background-color: rgba(16, 134, 5, 1);
+  overflow: hidden;
+
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+}
+.captions{
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:45px;
+  text-align: center;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(4, 47, 1, 1);
+  color: white;
+}
+
+#capt{
+  text-align:center;
+  font-size:45px;
+}
+.slide{
+  height:300px;
+  width: 300px;
+  margin-left: 50px;
+}
+li{
+  font-size:20px;
+  padding-top: 10px;
+  margin-left:50px;
+}
+#brand1{
+  background-image:url("https://t4.ftcdn.net/jpg/06/63/59/91/360_F_663599138_D6P9yGegRMntolsIXWdhY8YzwmBJZxDy.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.can{
+  display:flex;
+  justify-content: left;
+}
+.brand{
+  height:250px;
+  width:250px;
+
+}
+.container1{
+  display:flex;
+  justify-content:space-evenly;
+  margin-top:10px;
+}
+.boing{
+  background-color: rgba(137, 20, 20, 1);
+}
+.photo1{ 
+  display: flex;
+  justify-content: center;}
+.photo{
+  background-color: white;
+  height:400px;
+  width:400px;
+  margin-top: 10px;
+ 
+}
+.pho{
+  height:250px;
+  width:350px;
+  margin-top: 10px;
+  border:2px black solid;
+  
+}
+.pan{
+  text-align: center;
+  
+}
+.but1{
+  background-color: black;
+  border:1px black solid;
+  color:white;
+  height:45px;
+  width:175px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.container{
+  display:flex;
+  justify-content: space-evenly;
+}
+iframe{
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
